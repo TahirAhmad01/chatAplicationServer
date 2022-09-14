@@ -5,12 +5,6 @@
       "password": "$2a$10$vw9NZ4sU1tdKNIsvPqSbHOAXcK6NlWtZyllvi0eyduaLJTzheSbli",
       "name": "Tahir Ahmad",
       "id": 1
-    },
-    {
-      "email": "test@test.com",
-      "password": "$2a$10$O53VR18jI/PuyuZaX.Fc8.cubbe.o04POBW4lbFT5UniqeeRQEv0e",
-      "name": "Tahir Ahmad",
-      "id": 2
     }
   ],
   "conversations": [
