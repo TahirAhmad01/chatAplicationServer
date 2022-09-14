@@ -1,0 +1,88 @@
+{
+  "users": [
+    {
+      "email": "tahirahmad02345@gmail.com",
+      "password": "$2a$10$vw9NZ4sU1tdKNIsvPqSbHOAXcK6NlWtZyllvi0eyduaLJTzheSbli",
+      "name": "Tahir Ahmad",
+      "id": 1
+    },
+    {
+      "email": "test@test.com",
+      "password": "$2a$10$O53VR18jI/PuyuZaX.Fc8.cubbe.o04POBW4lbFT5UniqeeRQEv0e",
+      "name": "Tahir Ahmad",
+      "id": 2
+    }
+  ],
+  "conversations": [
+    {
+      "id": 1,
+      "participants": "sumit@learnwithsumit.com-akash@learnwithsumit.com",
+      "users": [
+        {
+          "email": "sumit@learnwithsumit.com",
+          "name": "Sumit Saha",
+          "id": 1
+        },
+        {
+          "email": "akash@learnwithsumit.com",
+          "name": "Akash Ahmed",
+          "id": 2
+        }
+      ],
+      "message": "How are you?",
+      "timestamp": 1661976143678
+    },
+    {
+      "id": 2,
+      "participants": "sumit@learnwithsumit.com-saad@learnwithsumit.com",
+      "users": [
+        {
+          "email": "sumit@learnwithsumit.com",
+          "name": "Sumit Saha",
+          "id": 1
+        },
+        {
+          "email": "akash@learnwithsumit.com",
+          "name": "Saad Hasan",
+          "id": 3
+        }
+      ],
+      "message": "How are you?",
+      "timestamp": 1661976143678
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "conversationId": 1,
+      "sender": {
+        "email": "sumit@learnwithsumit.com",
+        "name": "Sumit Saha",
+        "id": 1
+      },
+      "receiver": {
+        "email": "akash@learnwithsumit.com",
+        "name": "Akash Ahmed",
+        "id": 2
+      },
+      "message": "Hello",
+      "timestamp": 1661976143557
+    },
+    {
+      "id": 2,
+      "conversationId": 1,
+      "sender": {
+        "email": "akash@learnwithsumit.com",
+        "name": "Akash Ahmed",
+        "id": 2
+      },
+      "receiver": {
+        "email": "sumit@learnwithsumit.com",
+        "name": "Sumit Saha",
+        "id": 1
+      },
+      "message": "How are you?",
+      "timestamp": 1661976143678
+    }
+  ]
+}
