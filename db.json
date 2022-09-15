@@ -5,6 +5,18 @@
       "password": "$2a$10$vw9NZ4sU1tdKNIsvPqSbHOAXcK6NlWtZyllvi0eyduaLJTzheSbli",
       "name": "Tahir Ahmad",
       "id": 1
+    },
+    {
+      "email": "test@test.com",
+      "password": "$2a$10$5N16K0h3WodRKHE7QBLWnuMtxlsZy8zCdVFP2P71Qi4cnQTsbgueG",
+      "name": "test",
+      "id": 2
+    },
+    {
+      "email": "a@b.com",
+      "password": "$2a$10$Cud8RGvEd9eLRoKyL7.G0.NMGJp0GbDEom0ykSg89PJFhRxtmtK7i",
+      "name": "Tahir ahmad",
+      "id": 3
     }
   ],
   "conversations": [
