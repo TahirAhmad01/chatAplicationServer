@@ -89,6 +89,22 @@
       },
       "message": "How are you?",
       "timestamp": 1661976143678
+    },
+    {
+      "id": 3,
+      "conversationId": 1,
+      "sender": {
+        "email": "tahirahmad02345@gmail.com",
+        "name": "Akash Ahmed",
+        "id": 2
+      },
+      "receiver": {
+        "email": "sumit@learnwithsumit.com",
+        "name": "Sumit Saha",
+        "id": 1
+      },
+      "message": "Have a good day",
+      "timestamp": 1661976143678
     }
   ]
 }
