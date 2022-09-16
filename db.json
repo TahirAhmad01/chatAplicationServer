@@ -1,7 +1,7 @@
 {
   "users": [
     {
-      "email": "tahirahmad02345@gmail.com",
+      "email": "tahirahmad0234@gmail.com",
       "password": "$2a$10$vw9NZ4sU1tdKNIsvPqSbHOAXcK6NlWtZyllvi0eyduaLJTzheSbli",
       "name": "Tahir Ahmad",
       "id": 1
@@ -17,6 +17,11 @@
       "password": "$2a$10$Cud8RGvEd9eLRoKyL7.G0.NMGJp0GbDEom0ykSg89PJFhRxtmtK7i",
       "name": "Tahir ahmad",
       "id": 3
+    },
+    {
+      "email": "sumit@learnwithsumit.com",
+      "name": "sumit shah",
+      "id": 4
     }
   ],
   "conversations": [
