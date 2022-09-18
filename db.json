@@ -7,15 +7,15 @@
       "id": 1
     },
     {
-      "email": "test@test.com",
+      "email": "saad@learnwithsumit.com",
       "password": "$2a$10$5N16K0h3WodRKHE7QBLWnuMtxlsZy8zCdVFP2P71Qi4cnQTsbgueG",
-      "name": "test",
+      "name": "saad",
       "id": 2
     },
     {
-      "email": "a@b.com",
+      "email": "test@test.com",
       "password": "$2a$10$Cud8RGvEd9eLRoKyL7.G0.NMGJp0GbDEom0ykSg89PJFhRxtmtK7i",
-      "name": "Tahir ahmad",
+      "name": "Test",
       "id": 3
     },
     {
@@ -23,6 +23,12 @@
       "password": "$2a$10$5N16K0h3WodRKHE7QBLWnuMtxlsZy8zCdVFP2P71Qi4cnQTsbgueG",
       "name": "sumit shah",
       "id": 4
+    },
+    {
+      "email": "akash@learnwithsumit.com",
+      "password": "$2a$10$5N16K0h3WodRKHE7QBLWnuMtxlsZy8zCdVFP2P71Qi4cnQTsbgueG",
+      "name": "sumit shah",
+      "id": 5
     }
   ],
   "conversations": [
@@ -63,40 +69,23 @@
       "timestamp": 1661976143678
     },
     {
-      "id": 3,
-      "participants": "sumit@learnwithsumit.com-saad@learnwithsumit.com",
+      "participants": "sumit@learnwithsumit.com-tahirahmad0234@gmail.com",
       "users": [
         {
           "email": "sumit@learnwithsumit.com",
-          "name": "Sumit Saha",
-          "id": 1
+          "name": "sumit shah",
+          "id": 4
         },
         {
           "email": "tahirahmad0234@gmail.com",
+          "password": "$2a$10$vw9NZ4sU1tdKNIsvPqSbHOAXcK6NlWtZyllvi0eyduaLJTzheSbli",
           "name": "Tahir Ahmad",
-          "id": 3
-        }
-      ],
-      "message": "Have a good day",
-      "timestamp": 1661976143678
-    },
-    {
-      "id": 4,
-      "participants": "sumit@learnwithsumit.com-saad@learnwithsumit.com",
-      "users": [
-        {
-          "email": "nshuvo234@gmail.com",
-          "name": "Nishat Shuvo",
           "id": 1
-        },
-        {
-          "email": "tahirahmad02345@gmail.com",
-          "name": "Saad Hasan",
-          "id": 3
         }
       ],
-      "message": "Have a good day",
-      "timestamp": 1661976143678
+      "message": "dfs",
+      "timestamp": 1663512823139,
+      "id": 3
     }
   ],
   "messages": [
