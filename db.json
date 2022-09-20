@@ -1,141 +1,146 @@
 {
   "users": [
     {
-      "email": "tahirahmad0234@gmail.com",
-      "password": "$2a$10$vw9NZ4sU1tdKNIsvPqSbHOAXcK6NlWtZyllvi0eyduaLJTzheSbli",
-      "name": "Tahir Ahmad",
+      "email": "sumit@learnwithsumit.com",
+      "password": "$2a$10$Wq3VZhL0v3a5fHFmQYFcAOwwMFZtlnq.a/W4iUVSinJgOp2Wyxj/2",
+      "name": "sumit shah",
       "id": 1
     },
     {
-      "email": "saad@learnwithsumit.com",
-      "password": "$2a$10$5N16K0h3WodRKHE7QBLWnuMtxlsZy8zCdVFP2P71Qi4cnQTsbgueG",
-      "name": "saad",
+      "email": "tahirahmad0234@gmail.com",
+      "password": "$2a$10$zCOsLJHrselc9bXNHZUXTOKD7MdN.SmUORGjkM4SgoVoHty2LWT.C",
+      "name": "Tahir Ahmad",
       "id": 2
     },
     {
       "email": "test@test.com",
-      "password": "$2a$10$Cud8RGvEd9eLRoKyL7.G0.NMGJp0GbDEom0ykSg89PJFhRxtmtK7i",
-      "name": "Test",
+      "password": "$2a$10$UdG0NYd2C4rqPhwAffwmvOB5HHPk6gMGMhD8zU5ygS00YqC6gz5.u",
+      "name": "test",
       "id": 3
-    },
-    {
-      "email": "sumit@learnwithsumit.com",
-      "password": "$2a$10$5N16K0h3WodRKHE7QBLWnuMtxlsZy8zCdVFP2P71Qi4cnQTsbgueG",
-      "name": "sumit shah",
-      "id": 4
-    },
-    {
-      "email": "akash@learnwithsumit.com",
-      "password": "$2a$10$5N16K0h3WodRKHE7QBLWnuMtxlsZy8zCdVFP2P71Qi4cnQTsbgueG",
-      "name": "sumit shah",
-      "id": 5
     }
   ],
   "conversations": [
-    {
-      "id": 1,
-      "participants": "sumit@learnwithsumit.com-akash@learnwithsumit.com",
-      "users": [
-        {
-          "email": "sumit@learnwithsumit.com",
-          "name": "Sumit Saha",
-          "id": 1
-        },
-        {
-          "email": "akash@learnwithsumit.com",
-          "name": "Akash Ahmed",
-          "id": 2
-        }
-      ],
-      "message": "How are you?",
-      "timestamp": 1661976143678
-    },
-    {
-      "id": 2,
-      "participants": "sumit@learnwithsumit.com-saad@learnwithsumit.com",
-      "users": [
-        {
-          "email": "sumit@learnwithsumit.com",
-          "name": "Sumit Saha",
-          "id": 1
-        },
-        {
-          "email": "akash@learnwithsumit.com",
-          "name": "Saad Hasan",
-          "id": 3
-        }
-      ],
-      "message": "How are you?",
-      "timestamp": 1661976143678
-    },
     {
       "participants": "sumit@learnwithsumit.com-tahirahmad0234@gmail.com",
       "users": [
         {
           "email": "sumit@learnwithsumit.com",
           "name": "sumit shah",
-          "id": 4
+          "id": 1
         },
         {
           "email": "tahirahmad0234@gmail.com",
-          "password": "$2a$10$vw9NZ4sU1tdKNIsvPqSbHOAXcK6NlWtZyllvi0eyduaLJTzheSbli",
+          "password": "$2a$10$zCOsLJHrselc9bXNHZUXTOKD7MdN.SmUORGjkM4SgoVoHty2LWT.C",
           "name": "Tahir Ahmad",
-          "id": 1
+          "id": 2
         }
       ],
-      "message": "dfs",
-      "timestamp": 1663512823139,
-      "id": 3
+      "message": "i am fine Thank you",
+      "timestamp": 1663651779745,
+      "id": 1
+    },
+    {
+      "participants": "sumit@learnwithsumit.com-test@test.com",
+      "users": [
+        {
+          "email": "sumit@learnwithsumit.com",
+          "name": "sumit shah",
+          "id": 1
+        },
+        {
+          "email": "test@test.com",
+          "password": "$2a$10$UdG0NYd2C4rqPhwAffwmvOB5HHPk6gMGMhD8zU5ygS00YqC6gz5.u",
+          "name": "test",
+          "id": 3
+        }
+      ],
+      "message": "hi",
+      "timestamp": 1663627515807,
+      "id": 2
     }
   ],
   "messages": [
     {
-      "id": 1,
       "conversationId": 1,
       "sender": {
         "email": "sumit@learnwithsumit.com",
-        "name": "Sumit Saha",
+        "name": "sumit shah",
         "id": 1
       },
       "receiver": {
-        "email": "akash@learnwithsumit.com",
-        "name": "Akash Ahmed",
+        "email": "tahirahmad0234@gmail.com",
+        "password": "$2a$10$zCOsLJHrselc9bXNHZUXTOKD7MdN.SmUORGjkM4SgoVoHty2LWT.C",
+        "name": "Tahir Ahmad",
         "id": 2
       },
-      "message": "Hello",
-      "timestamp": 1661976143557
+      "message": "hi",
+      "timestamp": 1663651720002,
+      "id": 1
     },
     {
-      "id": 2,
       "conversationId": 1,
       "sender": {
-        "email": "akash@learnwithsumit.com",
-        "name": "Akash Ahmed",
+        "email": "tahirahmad0234@gmail.com",
+        "name": "Tahir Ahmad",
         "id": 2
       },
       "receiver": {
         "email": "sumit@learnwithsumit.com",
-        "name": "Sumit Saha",
+        "name": "sumit shah",
         "id": 1
       },
-      "message": "How are you?",
-      "timestamp": 1661976143678
+      "message": "hello",
+      "timestamp": 1663651726332,
+      "id": 2
     },
     {
-      "id": 3,
       "conversationId": 1,
       "sender": {
-        "email": "tahirahmad02345@gmail.com",
-        "name": "Akash Ahmed",
+        "email": "tahirahmad0234@gmail.com",
+        "name": "Tahir Ahmad",
         "id": 2
       },
       "receiver": {
         "email": "sumit@learnwithsumit.com",
-        "name": "Sumit Saha",
+        "name": "sumit shah",
         "id": 1
       },
-      "message": "Have a good day",
-      "timestamp": 1661976143678
+      "message": "how are you",
+      "timestamp": 1663651738772,
+      "id": 3
+    },
+    {
+      "conversationId": 1,
+      "sender": {
+        "email": "tahirahmad0234@gmail.com",
+        "name": "Tahir Ahmad",
+        "id": 2
+      },
+      "receiver": {
+        "email": "sumit@learnwithsumit.com",
+        "name": "sumit shah",
+        "id": 1
+      },
+      "message": "how do you do",
+      "timestamp": 1663651754176,
+      "id": 4
+    },
+    {
+      "conversationId": 1,
+      "sender": {
+        "email": "sumit@learnwithsumit.com",
+        "name": "sumit shah",
+        "id": 1
+      },
+      "receiver": {
+        "email": "tahirahmad0234@gmail.com",
+        "password": "$2a$10$zCOsLJHrselc9bXNHZUXTOKD7MdN.SmUORGjkM4SgoVoHty2LWT.C",
+        "name": "Tahir Ahmad",
+        "id": 2
+      },
+      "message": "i am fine Thank you",
+      "timestamp": 1663651779745,
+      "id": 5
     }
   ]
 }
