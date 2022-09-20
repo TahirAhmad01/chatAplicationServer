@@ -31,6 +31,7 @@ router.render = (req, res) => {
     io.emit("message", {
       data: res.locals.data,
     });
+    console.log(res);
   }
 
   res.json(res.locals.data);
