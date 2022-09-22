@@ -37,7 +37,7 @@ router.render = (req, res) => {
   res.json(res.locals.data);
 };
 
-const middlewares = jsonServer.defaults();
+const middlewares = jsonServer.defaults({ noCors: true });
 const port = process.env.PORT || 9000;
 
 // Bind the router db to the app
@@ -51,8 +51,28 @@ const rules = auth.rewriter({
   messages: 660,
 });
 
+app.use(router);
+app.use(function (req, res, next) {
+  "use strict";
+
+  res.header("Access-Control-Allow-Origin", "*");
+
+  if (req.headers["access-control-request-method"]) {
+    res.header("Access-Control-Allow-Methods", "GET, POST, PATCH, OPTIONS");
+  }
+  if (req.headers["access-control-request-headers"]) {
+    res.header("Access-Control-Allow-Headers", "X-Requested-With");
+  }
+
+  res.header("Access-Control-Max-Age", 60 * 60 * 24 * 365);
+
+  if (req.method === "OPTIONS") {
+    res.sendStatus(200);
+  } else {
+    next();
+  }
+});
 app.use(rules);
 app.use(auth);
-app.use(router);
 
 server.listen(port);
