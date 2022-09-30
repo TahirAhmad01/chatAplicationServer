@@ -57,13 +57,13 @@ const rules = auth.rewriter({
   messages: 660,
 });
 
-app.get("/inbox/:id", cors(corsOptions), function (req, res, next) {
+app.post("/inbox/:id", cors(corsOptions), function (req, res, next) {
   res.json({ msg: "This is CORS-enabled for only example.com." });
 });
 
-app.listen(80, function () {
-  console.log("CORS-enabled web server listening on port 80");
-});
+// app.listen(80, function () {
+//   console.log("CORS-enabled web server listening on port 80");
+// });
 
 app.use(cors());
 app.use(rules);
