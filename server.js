@@ -61,7 +61,7 @@ app.post("/inbox/:id", cors(corsOptions), function (req, res, next) {
   res.json({ msg: "This is CORS-enabled for only example.com." });
 });
 
-app.post("/messages", cors(corsOptions), function (req, res, next) {
+app.get("/messages", cors(corsOptions), function (req, res, next) {
   res.json({ msg: "This is CORS-enabled for only example.com." });
 });
 
