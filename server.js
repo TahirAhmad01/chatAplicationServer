@@ -2,6 +2,12 @@ const auth = require("json-server-auth");
 const jsonServer = require("json-server");
 const express = require("express");
 const http = require("http");
+const cors = require("cors");
+
+let corsOptions = {
+  origin: "https://lwschatapi.herokuapp.com/",
+  optionsSuccessStatus: 200, // some legacy browsers (IE11, various SmartTVs) choke on 204
+};
 
 const app = express();
 const server = http.createServer(app);
@@ -51,6 +57,15 @@ const rules = auth.rewriter({
   messages: 660,
 });
 
+app.get("/inbox/:id", cors(corsOptions), function (req, res, next) {
+  res.json({ msg: "This is CORS-enabled for only example.com." });
+});
+
+app.listen(80, function () {
+  console.log("CORS-enabled web server listening on port 80");
+});
+
+app.use(cors());
 app.use(rules);
 app.use(auth);
 app.use(router);
